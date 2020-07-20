@@ -3,8 +3,8 @@ import smtplib
 
 app = Flask(__name__)
 
-gmail_user = 'tip.cpealumni@gmail.com'
-gmail_password = 'cpealumni'
+gmail_user = 'gmail@gmail'
+gmail_password = 'password'
 
 @app.route('/post/email', methods=['POST'])
 def index():
